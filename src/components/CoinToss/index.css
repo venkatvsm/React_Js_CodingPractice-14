@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.bg_container {
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+  height: 100vh;
+  background-size: cover;
+  font-family: Roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 21px;
+  border-radius: 15px;
+  width: 80%;
+  height: 80%;
+}
+.heading {
+  color: #a35200;
+  font-size: 55px;
+  font-weight: 500;
+}
+.Head-para{
+  color:  #334155;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.image {
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.btnEl {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #f9d423;
+  color: #a35200;
+  border: none;
+  height: 40px;
+  width: 114px;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.paraContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.para {
+  color: #475569;
+  font-weight: 500;
+  font-size: 22px;
+}
+@media screen and (min-width: 767px) {
+  .heading {
+    font-size: 55px;
+  }
+  .Head-para{
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .image {
+    width: 364px;
+  }
+  .btnEl {
+    height: 60px;
+    width: 130px;
+    font-size: 21px;
+  }
+  .para{
+    font-size: 32px;
+  }
+}
