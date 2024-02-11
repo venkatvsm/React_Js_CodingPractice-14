@@ -7,17 +7,18 @@ class CoinToss extends Component {
 
   coinTossTriggered = () => {
     const result = Math.floor(Math.random() * 2)
-    result === 0
-      ? this.setState(prevState => ({
-          coinToss: result,
-          total: prevState.total + 1,
-          head: prevState.head + 1,
-        }))
-      : this.setState(prevState => ({
-          coinToss: result,
-          total: prevState.total + 1,
-          tails: prevState.tails + 1,
-        }))
+    const RI =
+      result === 0
+        ? this.setState(prevState => ({
+            coinToss: result,
+            total: prevState.total + 1,
+            head: prevState.head + 1,
+          }))
+        : this.setState(prevState => ({
+            coinToss: result,
+            total: prevState.total + 1,
+            tails: prevState.tails + 1,
+          }))
   }
 
   render() {
